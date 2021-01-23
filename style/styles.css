@@ -23,3 +23,28 @@ body {
 }
 
 /*End of Global Style*/
+
+.estrutura {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: header header header, sidenav content anuncios;
+}
+
+.header {
+  grid-area: header;
+}
+
+.sidenav {
+  grid-area: sidenav;
+}
+
+.content {
+  grid-area: content;
+}
+
+.anuncios {
+  grid-area: anuncios;
+}
+
+.footer {
+  grid-area: footer;
+}
