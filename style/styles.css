@@ -184,6 +184,7 @@ p {
   display: block;
   color: #b07dfb;
 }
+
 .numero {
   font-size: 3em;
   line-height: 1;
@@ -197,6 +198,43 @@ p {
   position: relative;
   top: 2px;
 }
+
+.destaque {
+  max-width: 16em;
+  line-height: 1.6;
+  font-size: 0.875em;
+  color: #b07dfb;
+}
+
+.citacao,
+.atributos {
+  align-self: start;
+  background-image: linear-gradient(135deg, #8844ee, #b07dfb);
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+}
+
+.citacao p {
+  margin: 0 auto;
+  font-style: italic;
+  font-size: 1.5em;
+  text-align: center;
+  max-width: 500px;
+  color: #fff;
+}
+
+.atributos li {
+  color: #fff;
+  font-family: Courier, monospace;
+  font-size: 1.125em;
+  padding: 15px;
+}
+
+.atributos li + li {
+  border-top: 2px solid #b07dfb;
+}
+
 /* ANUNCIOS */
 .anuncios {
   grid-area: anuncios;
